@@ -1,8 +1,12 @@
+import React from 'react';
+import TaskInput from './components/Tasks/TaskInput/TaskInput';
+import TaskList from './components/Tasks/TaskList/TaskList'
 
 function App() {
   return (
     <div className="App">
-      <h1>Start project</h1>
+      <TaskInput />
+      <TaskList />
     </div>
   );
 }
