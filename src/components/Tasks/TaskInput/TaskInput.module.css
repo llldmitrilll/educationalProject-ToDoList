@@ -1,0 +1,38 @@
+form {
+   border: 1px solid #993399;
+   padding: 30px 60px;
+}
+
+.form-control {
+   display: flex;
+   flex-direction: column;
+   width: 50%;
+}
+
+.form-control label {
+   font-weight: bold;
+   display: block;
+   margin-bottom: 0.5rem;
+}
+
+.form-control input {
+   display: block;
+   line-height: 1.5rem;
+   padding: 0 0.5;
+   font: inherit;
+}
+
+.form-control input:focus {
+   outline: none;
+   background: #c1c1c1;
+   border-color: #00355b;
+}
+
+.form-control.invaled input {
+   border-color: red;
+   background: rgb(243, 157, 157);
+}
+
+.form-control.invaled label {
+   color: red;
+}

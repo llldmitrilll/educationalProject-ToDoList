@@ -2,7 +2,7 @@ import './Task.css'
 
 const Task = (props) => {
    const liClick = () => {
-      props.onDeleteTask(props.index);
+      props.onDeleteTask(props.key);
    }
    return (
       <li onClick={liClick} className="task">

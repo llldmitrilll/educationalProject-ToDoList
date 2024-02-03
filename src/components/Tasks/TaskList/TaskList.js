@@ -16,7 +16,6 @@ const TaskList = (props) => {
                   key={index}
                   id={item.id}
                   text={item.text}
-                  index={index}
                   onDeleteTask={deleteTaskHandler}
                />
             )}
